@@ -1,18 +1,208 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="@dimen/layout_margin"
+    android:gravity="bottom"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edit_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:background="@color/bg_edit_text"
+        android:ems="20"
+        android:hint="@string/input_field"
+        android:inputType="number"
+        android:textAlignment="textEnd"
+        android:textSize="@dimen/result_text_size"
+        android:textStyle="italic" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_c"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/C"
+            android:textSize="@dimen/button_text_size" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_erase_to_the_left"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/eraseToTheLeft"
+            android:textSize="@dimen/button_text_size" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_division"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/division"
+            android:textSize="@dimen/button_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_1"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/_1"
+            android:textSize="@dimen/button_text_size" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_2"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/_2"
+            android:textSize="@dimen/button_text_size" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_3"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/_3"
+            android:textSize="@dimen/button_text_size" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_multiply"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/multiply"
+            android:textSize="@dimen/button_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_4"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/_4"
+            android:textSize="@dimen/button_text_size" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_5"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/_5"
+            android:textSize="@dimen/button_text_size" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_6"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/_6"
+            android:textSize="@dimen/button_text_size" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_minus"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/minus"
+            android:textSize="@dimen/button_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_7"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/_7"
+            android:textSize="@dimen/button_text_size" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_8"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/_8"
+            android:textSize="@dimen/button_text_size" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_9"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/_9"
+            android:textSize="@dimen/button_text_size" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_plus"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/plus"
+            android:textSize="@dimen/button_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_percent"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/percent"
+            android:textSize="@dimen/button_text_size" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_0"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/_0"
+            android:textSize="@dimen/button_text_size" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_comma"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/comma"
+            android:textSize="@dimen/button_text_size" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_equal"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/equal"
+            android:textSize="@dimen/button_text_size" />
+    </LinearLayout>
+
+</LinearLayout>
