@@ -40,6 +40,7 @@ public class Calculator implements Parcelable {
 
     public int calculateResult() {
         // вычисление выражения
+        result = number;
         if (mathSymbol.equals("*")) {
             result = number * number; // просто чтобы было что-нибудь, работает некорректно
         }

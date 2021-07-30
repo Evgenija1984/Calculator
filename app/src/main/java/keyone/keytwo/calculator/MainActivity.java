@@ -10,6 +10,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
+    static String TAG = "calculator";
+
     TextView inputField;
     Button buttonC;
     Button buttonEraseToTheLeft;
@@ -40,6 +42,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         initView();
         initListeners();
         calculator = new Calculator();
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putParcelable(TAG, calculator);
+    }
+
+    @Override
+    public void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        calculator = savedInstanceState.getParcelable(TAG);
+        setContent();
+    }
+
+    private void setContent() {
+        inputField.setText(String.valueOf(calculator.calculateResult()));
     }
 
     private void initListeners() {
