@@ -8,7 +8,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/inputField"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
