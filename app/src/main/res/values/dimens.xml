@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="result_text_size">35sp</dimen>
+    <dimen name="result_text_size_land">25sp</dimen>
     <dimen name="button_text_size">40sp</dimen>
+    <dimen name="button_text_size_land">20sp</dimen>
     <dimen name="button_width">0dp</dimen>
     <dimen name="margin_bottom">220dp</dimen>
     <dimen name="indent">10dp</dimen>
