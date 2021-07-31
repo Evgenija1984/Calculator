@@ -74,14 +74,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.47" />
+        app:layout_constraintGuide_percent="0.50" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline6v"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.57" />
+        app:layout_constraintGuide_begin="417dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline7v"
@@ -162,7 +162,7 @@
         app:layout_constraintBottom_toTopOf="@id/button4"
         app:layout_constraintEnd_toStartOf="@id/button2"
         app:layout_constraintHorizontal_chainStyle="packed"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline5v"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed" />
 
@@ -211,7 +211,7 @@
         app:layout_constraintBottom_toTopOf="@id/button7"
         app:layout_constraintEnd_toStartOf="@id/button5"
         app:layout_constraintHorizontal_chainStyle="packed"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline5v"
         app:layout_constraintTop_toBottomOf="@id/button1" />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -256,7 +256,7 @@
         app:layout_constraintBottom_toTopOf="@id/buttonPercent"
         app:layout_constraintEnd_toStartOf="@id/button8"
         app:layout_constraintHorizontal_chainStyle="packed"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline5v"
         app:layout_constraintTop_toBottomOf="@id/button4" />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -301,7 +301,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/button0"
         app:layout_constraintHorizontal_chainStyle="packed"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline5v"
         app:layout_constraintTop_toBottomOf="@id/button7" />
 
     <androidx.appcompat.widget.AppCompatButton
