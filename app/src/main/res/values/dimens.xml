@@ -6,5 +6,6 @@
     <dimen name="button_text_size_land">20sp</dimen>
     <dimen name="button_width">0dp</dimen>
     <dimen name="margin_bottom">220dp</dimen>
+    <dimen name="margin_bottom_land">100dp</dimen>
     <dimen name="indent">10dp</dimen>
 </resources>

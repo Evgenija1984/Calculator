@@ -8,16 +8,33 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/inputField"
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/indent"
         android:layout_marginEnd="@dimen/indent"
-        android:layout_marginBottom="@dimen/margin_bottom"
-        android:hint="@string/input_field"
-        android:textAlignment="textEnd"
-        android:textSize="@dimen/result_text_size" />
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/inputField"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/indent"
+            android:layout_marginEnd="@dimen/indent"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:hint="@string/input_field"
+            android:textAlignment="textEnd"
+            android:textSize="@dimen/result_text_size" />
+
+    </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="match_parent"
