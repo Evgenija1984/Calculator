@@ -8,4 +8,5 @@
     <dimen name="margin_bottom">220dp</dimen>
     <dimen name="margin_bottom_land">100dp</dimen>
     <dimen name="indent">10dp</dimen>
+    <dimen name="button_inset">3dp</dimen>
 </resources>
