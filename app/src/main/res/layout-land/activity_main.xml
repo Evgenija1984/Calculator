@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
-        <androidx.appcompat.widget.AppCompatTextView
+        <com.google.android.material.textview.MaterialTextView
             android:id="@+id/inputField"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -47,27 +47,36 @@
             android:layout_height="wrap_content"
             android:layout_weight="4" />
 
-        <androidx.appcompat.widget.AppCompatButton
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/buttonC"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_weight="2"
+            android:insetLeft="@dimen/button_inset"
+            android:insetRight="@dimen/button_inset"
+            android:insetBottom="@dimen/button_inset"
             android:text="@string/C"
             android:textSize="@dimen/button_text_size_land" />
 
-        <androidx.appcompat.widget.AppCompatButton
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/buttonEraseToTheLeft"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:insetLeft="@dimen/button_inset"
+            android:insetRight="@dimen/button_inset"
+            android:insetBottom="@dimen/button_inset"
             android:text="@string/eraseToTheLeft"
             android:textSize="@dimen/button_text_size_land" />
 
-        <androidx.appcompat.widget.AppCompatButton
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/buttonDivision"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:insetLeft="@dimen/button_inset"
+            android:insetRight="@dimen/button_inset"
+            android:insetBottom="@dimen/button_inset"
             android:text="@string/division"
             android:textSize="@dimen/button_text_size_land" />
     </LinearLayout>
@@ -85,35 +94,51 @@
             android:layout_height="wrap_content"
             android:layout_weight="4" />
 
-        <androidx.appcompat.widget.AppCompatButton
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button1"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:insetLeft="@dimen/button_inset"
+            android:insetTop="@dimen/button_inset"
+            android:insetRight="@dimen/button_inset"
+            android:insetBottom="@dimen/button_inset"
             android:text="@string/_1"
             android:textSize="@dimen/button_text_size_land" />
 
-        <androidx.appcompat.widget.AppCompatButton
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button2"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:insetLeft="@dimen/button_inset"
+            android:insetTop="@dimen/button_inset"
+            android:insetRight="@dimen/button_inset"
+            android:insetBottom="@dimen/button_inset"
             android:text="@string/_2"
             android:textSize="@dimen/button_text_size_land" />
 
-        <androidx.appcompat.widget.AppCompatButton
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button3"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:insetLeft="@dimen/button_inset"
+            android:insetTop="@dimen/button_inset"
+            android:insetRight="@dimen/button_inset"
+            android:insetBottom="@dimen/button_inset"
             android:text="@string/_3"
             android:textSize="@dimen/button_text_size_land" />
 
-        <androidx.appcompat.widget.AppCompatButton
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/buttonMultiply"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:insetLeft="@dimen/button_inset"
+            android:insetTop="@dimen/button_inset"
+            android:insetRight="@dimen/button_inset"
+            android:insetBottom="@dimen/button_inset"
             android:text="@string/multiply"
             android:textSize="@dimen/button_text_size_land" />
     </LinearLayout>
@@ -131,35 +156,51 @@
             android:layout_height="wrap_content"
             android:layout_weight="4" />
 
-        <androidx.appcompat.widget.AppCompatButton
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button4"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:insetLeft="@dimen/button_inset"
+            android:insetTop="@dimen/button_inset"
+            android:insetRight="@dimen/button_inset"
+            android:insetBottom="@dimen/button_inset"
             android:text="@string/_4"
             android:textSize="@dimen/button_text_size_land" />
 
-        <androidx.appcompat.widget.AppCompatButton
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button5"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:insetLeft="@dimen/button_inset"
+            android:insetTop="@dimen/button_inset"
+            android:insetRight="@dimen/button_inset"
+            android:insetBottom="@dimen/button_inset"
             android:text="@string/_5"
             android:textSize="@dimen/button_text_size_land" />
 
-        <androidx.appcompat.widget.AppCompatButton
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button6"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:insetLeft="@dimen/button_inset"
+            android:insetTop="@dimen/button_inset"
+            android:insetRight="@dimen/button_inset"
+            android:insetBottom="@dimen/button_inset"
             android:text="@string/_6"
             android:textSize="@dimen/button_text_size_land" />
 
-        <androidx.appcompat.widget.AppCompatButton
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/buttonMinus"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:insetLeft="@dimen/button_inset"
+            android:insetTop="@dimen/button_inset"
+            android:insetRight="@dimen/button_inset"
+            android:insetBottom="@dimen/button_inset"
             android:text="@string/minus"
             android:textSize="@dimen/button_text_size_land" />
     </LinearLayout>
@@ -177,35 +218,51 @@
             android:layout_height="wrap_content"
             android:layout_weight="4" />
 
-        <androidx.appcompat.widget.AppCompatButton
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button7"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:insetLeft="@dimen/button_inset"
+            android:insetTop="@dimen/button_inset"
+            android:insetRight="@dimen/button_inset"
+            android:insetBottom="@dimen/button_inset"
             android:text="@string/_7"
             android:textSize="@dimen/button_text_size_land" />
 
-        <androidx.appcompat.widget.AppCompatButton
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button8"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:insetLeft="@dimen/button_inset"
+            android:insetTop="@dimen/button_inset"
+            android:insetRight="@dimen/button_inset"
+            android:insetBottom="@dimen/button_inset"
             android:text="@string/_8"
             android:textSize="@dimen/button_text_size_land" />
 
-        <androidx.appcompat.widget.AppCompatButton
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button9"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:insetLeft="@dimen/button_inset"
+            android:insetTop="@dimen/button_inset"
+            android:insetRight="@dimen/button_inset"
+            android:insetBottom="@dimen/button_inset"
             android:text="@string/_9"
             android:textSize="@dimen/button_text_size_land" />
 
-        <androidx.appcompat.widget.AppCompatButton
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/buttonPlus"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:insetLeft="@dimen/button_inset"
+            android:insetTop="@dimen/button_inset"
+            android:insetRight="@dimen/button_inset"
+            android:insetBottom="@dimen/button_inset"
             android:text="@string/plus"
             android:textSize="@dimen/button_text_size_land" />
     </LinearLayout>
@@ -224,35 +281,47 @@
             android:layout_height="wrap_content"
             android:layout_weight="4" />
 
-        <androidx.appcompat.widget.AppCompatButton
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/buttonPercent"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:insetLeft="@dimen/button_inset"
+            android:insetTop="@dimen/button_inset"
+            android:insetRight="@dimen/button_inset"
             android:text="@string/percent"
             android:textSize="@dimen/button_text_size_land" />
 
-        <androidx.appcompat.widget.AppCompatButton
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button0"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:insetLeft="@dimen/button_inset"
+            android:insetTop="@dimen/button_inset"
+            android:insetRight="@dimen/button_inset"
             android:text="@string/_0"
             android:textSize="@dimen/button_text_size_land" />
 
-        <androidx.appcompat.widget.AppCompatButton
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/buttonComma"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:insetLeft="@dimen/button_inset"
+            android:insetTop="@dimen/button_inset"
+            android:insetRight="@dimen/button_inset"
             android:text="@string/comma"
             android:textSize="@dimen/button_text_size_land" />
 
-        <androidx.appcompat.widget.AppCompatButton
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/buttonEqual"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:insetLeft="@dimen/button_inset"
+            android:insetTop="@dimen/button_inset"
+            android:insetRight="@dimen/button_inset"
             android:text="@string/equal"
             android:textSize="@dimen/button_text_size_land" />
     </LinearLayout>
