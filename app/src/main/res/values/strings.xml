@@ -20,5 +20,7 @@
     <string name="comma">,</string>
     <string name="equal">=</string>
     <string name="input_field">Поле ввода/Результат</string>
+    <string name="night_theme">night theme</string>
+    <string name="light_theme">light theme</string>
 
 </resources>

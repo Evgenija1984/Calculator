@@ -9,4 +9,5 @@
     <dimen name="margin_bottom_land">100dp</dimen>
     <dimen name="indent">10dp</dimen>
     <dimen name="button_inset">3dp</dimen>
+    <dimen name="text_size">30sp</dimen>
 </resources>
