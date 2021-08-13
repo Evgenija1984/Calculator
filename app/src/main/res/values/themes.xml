@@ -18,4 +18,9 @@
         <item name="colorPrimary">@color/design_default_color_secondary</item>
     </style>
 
+    <style name="myStyleNight" parent="Theme.Calculator">
+        <item name="colorPrimary">@color/material_on_surface_stroke</item>
+        <item name="colorPrimaryVariant">@color/design_default_color_error</item>
+    </style>
+
 </resources>

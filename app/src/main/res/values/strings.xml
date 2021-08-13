@@ -22,5 +22,6 @@
     <string name="input_field">Поле ввода/Результат</string>
     <string name="night_theme">night theme</string>
     <string name="light_theme">light theme</string>
+    <string name="select_theme">Выбор темы</string>
 
 </resources>
