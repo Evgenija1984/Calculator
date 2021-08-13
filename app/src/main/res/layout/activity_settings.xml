@@ -6,18 +6,23 @@
     android:orientation="vertical"
     tools:context=".SettingsActivity">
 
-    <com.google.android.material.radiobutton.MaterialRadioButton
-        android:id="@+id/radioButtonLight"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/light_theme"
-        android:textSize="@dimen/text_size" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
-    <com.google.android.material.radiobutton.MaterialRadioButton
-        android:id="@+id/radioButtonNight"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/night_theme"
-        android:textSize="@dimen/text_size" />
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/radioButtonLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/light_theme"
+            android:textSize="@dimen/text_size" />
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/radioButtonNight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/night_theme"
+            android:textSize="@dimen/text_size" />
+    </RadioGroup>
 
 </LinearLayout>
